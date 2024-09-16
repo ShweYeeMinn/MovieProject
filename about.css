@@ -1,0 +1,249 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.section{
+    width: 100%;
+}
+.section .container{
+    width: 100%;
+   
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #88941e;
+}
+.container .row h2{
+    color: #88941e;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.container .row h2::after{
+    content: '';
+    height: 5px;
+    width: 100px;
+    background: #c4d156;
+    border-radius: 25px;
+    
+    margin: auto;
+}
+.container .title h1::after{
+    content: '';
+    height: 5px;
+    width: 100px;
+    background: #c4d156;
+    border-radius: 25px;
+  
+    margin: auto;
+}
+.content{
+ 
+    width: 100%;
+}
+.image-section{
+    
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content .article h3{
+    color: #a3a3a3;
+}
+.content .article p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.content .article .button{
+    margin-top: 50px;
+}
+.content .article .button a{
+    text-decoration: none;
+    padding: 8px 25px;
+    background: #88941e;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.content .article .button a:hover{
+    color: #fff;
+    background: #f28f92;
+    transition: 1s ease;
+}
+.container .social{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    display: inline-block;
+}
+.container .social i{
+    color: #fff;
+    font-size: 22px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background: #f28f92;
+    margin: 0 5px;
+    border-radius: 50%;
+    line-height: 45px;
+    
+}
+.container .social i:hover{
+    color: #fff;
+    background: #88941e;
+    transition: 1s ease;
+    transform: rotate(360deg);
+}
+@media screen and (max-width:768px){
+    .section .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+    .content{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .container .title h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .container .article .button{
+        text-align: center;
+    }
+    .container .article .button a{
+        padding: 6px 15px;
+        font-size: 16px;
+    }
+    .container .social i{
+        font-size: 19px;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+}
+.team-section{
+    width: 100%;
+}
+.team-section .container{
+    width: 80%;
+    margin: auto;
+}
+.team-section .container .row{
+    width: 60%;
+    margin: auto;
+}
+.team-section .container .row .title{
+
+    text-align: center;
+    margin-top: 50px;
+}
+.team-section .container .row .title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #88941e;
+
+}
+.team-section .container .row .title p{
+    font-size: 18px;
+    margin: 30px 0px;
+    color: #fff;
+}
+.team-section .container .team-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.team-section .container .team-card .card{
+    width: 100%;
+    background: #292824;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.team-section .container .team-card .card:hover{
+    background: #534c4c;
+    transition: 0.3;
+}
+
+.image-box{
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    
+}
+.content-box{
+    align-items: center;
+    width: 100%;
+}
+.content-box h3{
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color:#88941e;
+    text-align: center;
+}
+.content-box h4{
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    text-align: center;
+}
+.content-box p{
+    font-size: 15px;
+    margin-top: 16px 0px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-top: 7px;
+    text-align: center;
+}
+.card{
+    border-radius: 20px;
+}
+.image-box img{
+    border-radius: 50%;
+}
+@media screen and (max-width:900px){
+    .team-section .container .team-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:768px){
+    .team-section .container .team-card{
+        grid-template-columns: 1fr;
+    }
+}

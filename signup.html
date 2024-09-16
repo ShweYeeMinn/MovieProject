@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signupstyle.css">
+    <script type="text/javascript" src="signup.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Signup</h1>
+        <p id="error-message"></p>
+        <form id="form">
+            <div>
+                <label for="firstname-input">
+                    <i class='bx bx-user' ></i>
+                </label>
+                <input type="text" name="firstname" id="firstname-input" placeholder="First Name">
+            </div>
+            <div>
+                <label for="email-input">
+                    <span>@</span>
+                </label>
+                <input type="email" name="email" id="email-input" placeholder="Email">
+            </div>
+            <div>
+                <label for="password-input">
+                    <i class='bx bx-lock-alt'></i>
+                </label>
+                <input type="password" name="password" id="password-input" placeholder="Password">
+            </div>
+            <div>
+                <label for="password-input">
+                    <i class='bx bx-lock-alt'></i>
+                </label>
+                <input type="password" name="repeat-password" id="repeat-password" placeholder="Repeat Password">
+            </div>
+            <button type="submit">Singup</button>
+        </form>
+        <p>Already have an Accout? <a href="login.html">Login</a></p>
+    </div>
+
+
+   
+</body>
+</html>

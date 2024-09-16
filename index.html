@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+</head>
+<body>
+  <!-- navbar -->
+    <header>
+      <div class="nav container">
+        <a href="index.html" style="text-decoration: none;" class="logo">
+          Movie<span> Site</span>
+        </a>
+        
+        <div class="search-box">
+          <input type="search" name="" id="search-input" placeholder="Search Movie">
+          <i class='bx bx-search' ></i>
+        </div>
+        <a href="signup.html" class="user">
+          <img src="./img/user.jpg" alt="" class="user-img">
+        </a>
+        <div class="navbar">
+          <a href="index.html" class="nav-link">
+            <i class='bx bx-home-alt-2' ></i>
+            <span class="nav-link-title">Home</span>
+          </a>
+            <a href="Detail.html" class="nav-link">
+              <i class='bx bx-detail'></i>
+              <span class="nav-link-title">Details</span>
+            </a>
+          <a href="#search" class="nav-link">
+            <i class='bx bx-file-find'></i>
+            <span class="nav-link-title">Search <br> Result</span>
+          </a>
+          <a href="Review.html" class="nav-link">
+            <i class='bx bx-chat'></i>
+            <span class="nav-link-title">Reviews</span>
+          </a>
+          <a href="Aboutus.html" class="nav-link">
+            <i class='bx bxs-user'></i>
+            <span class="nav-link-title">About Us</span>
+          </a>
+        </div>
+      </div>
+    </header>  
+
+    <section class="home container" id="home">
+      <img src="img/Kalki 2898 AD edd.jpg" alt="" class="home-img">
+      <div class="home-text">
+        <h1 class="home-title">Kalki 2898 AD</h1>
+        <p>Released date
+          August 22, 2024</p>
+        <a href="Kalki2898AD.html" class="btn-watch">
+          <i class='bx bx-right-arrow' ></i>
+          <span>Watch Movie</span>
+        </a>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="popular container" id="popular">
+      <div class="heading">
+        <h2 class="heading-title">Popular Movies</h2>
+        <div class="swiper-btn">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <div class="popular-content swiper">
+        <div class="swiper-wrapper">
+          <!-- trap -->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img src="./img/Trap.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                <h2 class="movie-title">Trap (2024)</h2>
+                <span class="movie-type">Crime/Thriller/Mystery <br> 1h 45m</span>
+                <a href="Trap.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+                  <i class='bx bx-right-arrow' ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- spaceman -->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img src="./img/Spaceman.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                <h2 class="movie-title">Spaceman (2024)</h2>
+                <span class="movie-type">Sci-fi/Adventure <br> 1h 49m</span>
+                <a href="Spaceman.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+                  <i class='bx bx-right-arrow' ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- deadpool -->
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img src="./img/Deadpool.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                <h2 class="movie-title">Deadpool & Wolverine (2024)</h2>
+                <span class="movie-type">Action/Comedy <br> 2h 7m</span>
+                <a href="Deadpool.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+                  <i class='bx bx-right-arrow' ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+         <!-- furiosa -->
+         <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/Furiosa.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Furiosa: A Mad Max Saga (2024)</h2>
+              <span class="movie-type">Action/Adventure <br> 2h 28m</span>
+              <a href="Furiosa.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+                <i class='bx bx-right-arrow' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- alien -->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/Alien.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Alien: Romulus (2024)</h2>
+              <span class="movie-type">Sci-fi/Horror <br>1h 59m</span>
+              <a href="Alien.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+                <i class='bx bx-right-arrow' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- longlegs -->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/Longlegs.jfif" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Longlegs (2024)</h2>
+              <span class="movie-type">Crime/Horror <br>1h 41m</span>
+              <a href="LongLegs.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+                <i class='bx bx-right-arrow' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- civilwar -->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/Civil War.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Civil War (2024)</h2>
+              <span class="movie-type">War/Action <br>1h 49m</span>
+              <a href="CivilWar.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+                <i class='bx bx-right-arrow' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- godzilla -->
+        <div class="swiper-slide">
+          <div class="movie-box">
+            <img src="./img/Gozilla X Kong.jpg" alt="" class="movie-box-img">
+            <div class="box-text">
+              <h2 class="movie-title">Godzilla x Kong: <br>The New Empire (2024)</h2>
+              <span class="movie-type">Action/Sci-fi <br> 1h 55m</span>
+              <a href="play-page.html" class="btn-watch play-btn" style="right: 35px;">
+                <i class='bx bx-right-arrow' ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="movies container" id="movies">
+      <div class="heading">
+        <h2 class="heading-title">Movies And TV Shows</h2>
+      </div>
+      <div class="movies-content">
+        <!-- tarot -->
+        <div class="movie-box">
+          <img src="./img/Tarot.jpg" alt="" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Tarot (2024)</h2>
+            <span class="movie-type">Horror/Crime <br> 1h 32m</span>
+            <a href="Tarot.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+              <i class='bx bx-right-arrow' ></i>
+            </a>
+          </div>
+        </div>
+         <!-- insideout2 -->
+         <div class="movie-box">
+          <img src="./img/Insideout2.jpg" alt="" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">InsideOut2 (2024)</h2>
+            <span class="movie-type">Family/Comedy <br> 1h 36m</span>
+            <a href="InsideOut2.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+              <i class='bx bx-right-arrow' ></i>
+            </a>
+          </div>
+        </div>
+         <!-- savi -->
+         <div class="movie-box">
+          <img src="./img/Savi.jpeg" alt="" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Savi (2024)</h2>
+            <span class="movie-type">Crime/Thriler <br> 2h 2m</span>
+            <a href="Savi.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+              <i class='bx bx-right-arrow' ></i>
+            </a>
+          </div>
+        </div>
+         <!-- dancing -->
+         <div class="movie-box">
+          <img src="./img/Dancing.avif" alt="" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Dancing Village:  <br> The Curse Begins (2024)</h2>
+            <span class="movie-type">Thriller/Horror <br> 2h 2m</span>
+            <a href="DancingVill.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+              <i class='bx bx-right-arrow' ></i>
+            </a>
+          </div>
+        </div>
+         <!-- supacell -->
+         <div class="movie-box">
+          <img src="./img/Supacell.jpg" alt="" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Supacell (2024)</h2>
+            <span class="movie-type">Drama <br>6 Episodes</span>
+            <a href="Supacell.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+              <i class='bx bx-right-arrow' ></i>
+            </a>
+          </div>
+        </div>
+         <!-- underparis -->
+         <div class="movie-box">
+          <img src="./img/UP.jpg" alt="" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Under Paris (2024)</h2>
+            <span class="movie-type">Horror/Action <br> 1h 44m </span>
+            <a href="UnderParis.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+              <i class='bx bx-right-arrow' ></i>
+            </a>
+          </div>
+        </div>
+         <!-- stranger -->
+         <div class="movie-box">
+          <img src="./img/Stranger Things.jpg" alt="" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Stranger Things <br> Season 4 (2022)</h2>
+            <span class="movie-type">Horror/Sci-fi/Advanture <br> 9 Episodes</span>
+            <a href="StrangerThings.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+              <i class='bx bx-right-arrow' ></i>
+            </a>
+          </div>
+        </div>
+         <!-- blackout -->
+         <div class="movie-box">
+          <img src="./img/Black Out.jpeg" alt="" class="movie-box-img">
+          <div class="box-text">
+            <h2 class="movie-title">Black Out (2024)</h2>
+            <span class="movie-type">Drama <br> 16 Episodes</span>
+            <a href="BlackOut.html" class="btn-watch play-btn" target="_blank" style="right: 35px;">
+              <i class='bx bx-right-arrow' ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <div class="next-page">
+      <a href="Detail.html" class="next-btn">Next Page</a>
+    </div>
+    <div class="copyright">
+      <p>&#169; Arius All Right Reserved</p>
+    </div>
+  
+
+    
+      
+
+
+
+
+
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+      <script src="js/swiper-bundle.min.js"></script>
+
+
+</body>
+</html>
